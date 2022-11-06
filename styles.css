@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Secular One", sans-serif;
+    color: #5c8683;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: #8FD8D2;
+    color: #5c8683;
+    overflow: hidden;
+}
+
+::selection{
+    background-color: #8FD8D2;
+    color: #fdfdfd;
+}
+
+.container{
+    border: 3px solid #fdfdfd;
+    border-radius: 20px;
+    max-width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #fdfdfd;
+    left: 70%;
+    bottom: 90%;
+}
+.container::after {
+    content: "";
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #fdfdfd;
+    right: 73%;
+    top: 90%;
+}
+
+.container h1{
+    font-size: 3em;
+}
+
+.container input{
+    height: 20px;
+    width: 250px;
+    padding: 30px 30px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 46%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+
+.btn{
+    padding: 20px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.btn:hover{
+    background-color: #5c8683;
+    color: #fdfdfd;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.result{
+    margin-top: 20px;
+    text-align: center;
+}
+.result h3{
+    font-size: 2em;
+}
+.result h4{
+    font-size: .95em;
+    margin-bottom: 15px;
+}
+
+label{
+    text-align: left;
+}
+ul{
+    width: 100%;
+}
+
+
+
